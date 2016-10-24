@@ -1,0 +1,27 @@
+// ----------------------------------------------------------------------------
+// Widget-haenergymeter styles
+// ----------------------------------------------------------------------------
+.widget-haenergymeter {
+
+  background-color: #444;
+
+  .title {
+    color: #232323;
+  }
+
+  .value {
+    color: #232323;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .unit {
+    color: #232323;
+    font-size: 225%;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+}
