@@ -4,7 +4,8 @@ HADashboard energymeter widget
 
 This is a widget based on HAsensor for `HADashboard <https://github.com/home-assistant/hadashboard>`__ for show differents background colours based on sensor value.
 
-|widget1| |widget2| |widget3| |widget4|
+|widget1| |widget2|
+|widget3| |widget4|
 
 ----------
 How to use
@@ -46,6 +47,18 @@ How to use
     <li data-row="1" data-col="7" data-sizex="2" data-sizey="1">
       <div data-id="energy_usage" data-view="Haenergymeter" data-title="Consumo Total" data-unit="kWh" data-interval1="1" data-interval2="2" data-interval3="3"></div>
     </li>
+
++------------+---------------------------------------------+
+| Color  | Interval                                        | 
++========+=================================================+
+| Green  | between 0 and data-interval1                    | 
++--------+-------------------------------------------------+
+| Yellow | between data-interval1 and data-interval2       |
++--------+-------------------------------------------------+
+| Orange | between data-interval2 and data-interval3       |
++--------+-------------------------------------------------+
+| Red    | greater than data-interval3                     |
++--------+-------------------------------------------------+
 
 .. |widget1| image:: https://raw.github.com/gonzalezcalleja/haenergymeter/master/doc/img/img1.png
 .. |widget2| image:: https://raw.github.com/gonzalezcalleja/haenergymeter/master/doc/img/img2.png
