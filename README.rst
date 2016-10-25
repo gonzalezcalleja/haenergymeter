@@ -1,11 +1,14 @@
+==============================
 HADashboard energymeter widget
 ==============================
 
 This is a widget based on HAsensor for `HADashboard <https://github.com/home-assistant/hadashboard>`__ for show differents background colours based on sensor value.
 
-|widget1|
+|widget1| |widget2| |widget3| |widget4|
 
-## How to use
+----------
+How to use
+----------
 
 -  Add haenergymeter dir to hadashboard widget directory
 -  Edit hapush.py and add the widget in views inside translate_view: 
