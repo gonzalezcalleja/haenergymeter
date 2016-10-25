@@ -49,5 +49,5 @@ How to use
 
 .. |widget1| image:: https://raw.github.com/gonzalezcalleja/haenergymeter/master/doc/img/img1.png
 .. |widget2| image:: https://raw.github.com/gonzalezcalleja/haenergymeter/master/doc/img/img2.png
-.. |widget3| image:: https://raw.github.com/gonzalezcalleja/haenergymeter/master/doc/img/img4.png
-.. |widget4| image:: https://raw.github.com/gonzalezcalleja/haenergymeter/master/doc/img/img5.png
+.. |widget3| image:: https://raw.github.com/gonzalezcalleja/haenergymeter/master/doc/img/img3.png
+.. |widget4| image:: https://raw.github.com/gonzalezcalleja/haenergymeter/master/doc/img/img4.png
